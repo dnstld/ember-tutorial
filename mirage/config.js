@@ -48,5 +48,7 @@ export default function() {
     } else {
       return { data: rentals }
     }
-  })
+  });
+
+  this.passthrough('https://api.mapbox.com/**');
 }
