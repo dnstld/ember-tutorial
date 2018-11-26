@@ -29,7 +29,6 @@ module.exports = function(environment) {
     // ENV.APP.LOG_TRANSITIONS = true;
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
-    ENV.APP.LEAFLET_MAPS_API_KEY = 'pk.eyJ1IjoiZGVuaXN0b2xlZG8iLCJhIjoiY2pveDIxOTM3MHZhNjN3bnkxNWJ0Z2Z0byJ9.XmaUsc1bvw4vDXxXikh3cw';
   }
 
   if (environment === 'test') {
