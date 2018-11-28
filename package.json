@@ -11,10 +11,10 @@
     "test": "tests"
   },
   "scripts": {
-    "build": "LEAFLET_MAPS_API_KEY=sk.eyJ1IjoiZGVuaXN0b2xlZG8iLCJhIjoiY2pveDRrZnFpMjRpNDNwbmh4aHhxeGwzZCJ9.QsRDPtOiJzHCLU2DsE9CXQ ember build",
+    "build": "ember build",
     "lint:hbs": "ember-template-lint .",
     "lint:js": "eslint .",
-    "start": "LEAFLET_MAPS_API_KEY=sk.eyJ1IjoiZGVuaXN0b2xlZG8iLCJhIjoiY2pveDRrZnFpMjRpNDNwbmh4aHhxeGwzZCJ9.QsRDPtOiJzHCLU2DsE9CXQ ember serve",
+    "start": "ember serve",
     "test": "ember test"
   },
   "devDependencies": {
